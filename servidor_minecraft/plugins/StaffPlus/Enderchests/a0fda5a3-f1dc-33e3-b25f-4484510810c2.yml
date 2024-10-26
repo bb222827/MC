@@ -1,0 +1,65 @@
+a0fda5a3-f1dc-33e3-b25f-4484510810c2:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SPARTANSHIELDS_DIAMOND_BASIC_SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/+NiYGBk4HYsLckvSk3LL0pPZeRgYA+CMBnkC0sTczJLKuNTC0szC3JT80r0oCJ6xfk5mSkMAL1CYOQ+AAAA
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 36
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_BLOCKS: 5
+        MORE_ENCHANTMENTS_WISDOM: 8
+        CYCLIC_EXPERIENCE_BOOST: 7
+        DIG_SPEED: 3
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      Damage: 6
+      internal: H4sIAAAAAAAA/+NiYGBm4EpPzS2OT84vzSthAAJGBm7H0pL8otS0/KL0VEYOBvYgCJNBubA0MSezpDI+tbA0syA3Na9EDyqil5OanpqXklhUyQAA+em8DVMAAAA=
+      PublicBukkitValues:
+        itemtag:effects_list: SATURATION,254,false,true,true
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        SILK_TOUCH: 1
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      internal: H4sIAAAAAAAA/+NiYGBk4HYsLckvSk3LL0pPZWQAAGJ91tETAAAA
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WATER_BUCKET
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: LAVA_BUCKET
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GOBBER2_GOBBER2_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      internal: H4sIAAAAAAAA/+NiYGBm4EpPzS2OT84vzSthAAJGBm7H0pL8otS0/KL0VEYGAGqIuB4kAAAA

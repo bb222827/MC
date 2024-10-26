@@ -1,0 +1,852 @@
+[00:15:11] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[00:15:11] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[00:15:13] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[00:15:13] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[00:15:14] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[00:15:14] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 6 dependencies adding them to mods collection
+[00:15:16] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[00:15:16] [main/INFO] [mixin]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[00:15:16] [main/INFO] [mixin]: Successfully loaded Mixin Connector [com.aizistral.enigmaticlegacy.MixinConnector]
+[00:15:16] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[00:15:16] [main/WARN] [mixin]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:15:17] [main/INFO] [Puzzles Lib]: Loading 74 mods:
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- artifacts 9.5.13
+		\-- expandability 9.0.4
+	- attributefix 21.0.4
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettervillage 3.1.0
+	- bookshelf 20.2.13
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+	- cataclysm 2.07
+	- citadel 2.6.0
+	- cloth_config 11.1.136
+	- collective 7.84
+	- constructionwand 1.20.1-2.11
+	- corgilib 4.0.3.2
+	- creativecore 2.12.17
+	- curios 5.10.0+1.20.1
+	- cyclic 1.12.14
+	- dungeoncrawl 2.3.14
+	- easy_villagers 1.20.1-1.1.23
+	- editenchanting 1.1.2
+	- enchantinginfuser 8.0.3
+	- enchdesc 17.1.18
+	- enhancedai 2.5.2
+		\-- mixinextras 0.3.6
+	- enhancedcelestials 1.20.1-5.0.1.0
+	- enigmaticlegacy 2.30.1
+	- flib 0.0.14
+	- forge 47.3.10
+		\-- mohist 1.20.1
+	- framework 0.7.8
+	- geckolib 4.4.9
+	- gobber2 2.8.9
+	- goblintraders 1.9.3
+	- hammerlib 20.1.33
+	- improvableskills 20.1.11
+	- infernalmobs 1.20.1.3
+	- infinitetrading 4.5
+	- insanelib 1.15.0
+	- inventoryhud 3.4.26
+	- inventorysorter 23.0.1
+	- ironfurnaces 4.1.6
+	- itemproductionlib 1.0.2a
+	- jade 11.12.1+forge
+	- jei 15.20.0.104
+	- journeymap 5.10.3
+	- libraryferret 4.0.0
+	- lionfishapi 1.9
+	- minecraft 1.20.1
+	- more_enchantments 1.4.3
+	- mowziesmobs 1.6.4
+	- mr_infinity_mending 1
+	- oreexcavation 1.13.174
+	- overloadedarmorbar 1.20.1-1
+	- patchouli 1.20.1-84-FORGE
+	- pickupnotifier 8.0.0
+	- puffish_skills 0.13.2
+	- puzzleslib 8.1.24
+		\-- puzzlesaccessapi 8.0.7
+	- quality_equipment 1.6
+	- reap 1.20.1-1.1.2
+	- rightclickharvest 3.2.3+1.20.1-forge
+	- skilltree 0.6.14a
+	- sophisticatedbackpacks 3.20.11.1115
+	- sophisticatedcore 0.6.33.711
+	- spartanshields 3.1.1
+	- tombstone 8.8.0
+	- toolleveling 1.20.1-2.0.0
+	- trade_cycling 1.20.1-1.0.14
+	- trashslot 15.1.0
+	- treeharvester 9.1
+	- yungsapi 1.20-Forge-4.0.6
+[00:15:17] [main/WARN] [mixin]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[00:15:17] [main/WARN] [mixin]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found mixins.hammerlib.json:bs.kubejs.RecipeEventJSMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[00:15:18] [main/WARN] [mixin]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[00:15:18] [main/WARN] [mixin]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[00:15:18] [main/WARN] [mixin]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[00:15:18] [main/WARN] [mixin]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[00:15:18] [main/WARN] [mixin]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
+[00:15:18] [main/WARN] [mixin]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
+[00:15:18] [main/WARN] [mixin]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
+[00:15:18] [main/WARN] [mixin]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
+[00:15:18] [main/WARN] [mixin]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
+[00:15:18] [main/WARN] [mixin]: Error loading class: jeresources/api/util/LootConditionHelper (java.lang.ClassNotFoundException: jeresources.api.util.LootConditionHelper)
+[00:15:18] [main/WARN] [mixin]: @Mixin target jeresources.api.util.LootConditionHelper was not found mixins.improvableskills.json:jer.LootConditionHelperMixin
+[00:15:19] [main/WARN] [mixin]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: net.darkhax.darkutils.features.charms.CharmEffects)
+[00:15:19] [main/WARN] [mixin]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: com.brandon3055.csg.ModEventHandler)
+[00:15:19] [main/WARN] [mixin]: Error loading class: vazkii/quark/content/tweaks/module/AutomaticRecipeUnlockModule (java.lang.ClassNotFoundException: vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule)
+[00:15:19] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[00:15:21] [main/INFO] [mixin]: Mixing MixinLivingEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.LivingEntity
+[00:15:21] [main/INFO] [mixin]: Mixing MixinPlayer from enigmaticlegacy.mixins.json into net.minecraft.world.entity.player.Player
+[00:15:21] [main/INFO] [mixin]: Mixing MixinMobEffect from enigmaticlegacy.mixins.json into net.minecraft.world.effect.MobEffect
+[00:15:23] [main/INFO] [mixin]: Mixing AccessorAbstractArrowEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[00:15:23] [main/INFO] [mixin]: Mixing MixinEnchantmentContainer from enigmaticlegacy.mixins.json into net.minecraft.world.inventory.EnchantmentMenu
+[00:15:23] [main/INFO] [mixin]: Renaming synthetic method lambda$onEnchantedItem$0(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/EnchantmentMenu;ILnet/minecraft/world/entity/player/Player;ILnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V to mde95f7b$lambda$onEnchantedItem$0$0 in enigmaticlegacy.mixins.json:MixinEnchantmentContainer
+[00:15:23] [main/INFO] [mixin]: Mixing MixinItemStack from enigmaticlegacy.mixins.json into net.minecraft.world.item.ItemStack
+[00:15:24] [main/INFO] [mixin]: Mixing MixinEnderEyeItem from enigmaticlegacy.mixins.json into net.minecraft.world.item.EnderEyeItem
+[00:15:24] [main/INFO] [mixin]: Mixing MixinCrossbowItem from enigmaticlegacy.mixins.json into net.minecraft.world.item.CrossbowItem
+[00:15:25] [main/INFO] [mixin]: Mixing MixinEnderDragon from enigmaticlegacy.mixins.json into net.minecraft.world.entity.boss.enderdragon.EnderDragon
+[00:15:25] [main/INFO] [mixin]: Renaming synthetic method lambda$onTickDeath$0(Lnet/minecraft/server/level/ServerPlayer;)V to mde95f7b$lambda$onTickDeath$0$0 in enigmaticlegacy.mixins.json:MixinEnderDragon
+[00:15:26] [main/INFO] [mixin]: Mixing MixinShulker from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.Shulker
+[00:15:26] [main/INFO] [mixin]: Mixing MixinVillagerEntity from enigmaticlegacy.mixins.json into net.minecraft.world.entity.npc.Villager
+[00:15:26] [main/INFO] [mixin]: Mixing MixinVillager from enigmaticlegacy.mixins.json into net.minecraft.world.entity.npc.Villager
+[00:15:26] [main/INFO] [mixin]: Mixing MixinBindingCurseEnchantment from enigmaticlegacy.mixins.json into net.minecraft.world.item.enchantment.BindingCurseEnchantment
+[00:15:27] [modloading-worker-0/INFO] [mixin]: Mixing MixinPlayerList from enigmaticlegacy.mixins.json into net.minecraft.server.players.PlayerList
+[00:15:28] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialize mod Library Ferret
+[00:15:28] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialized mod Library Ferret
+[00:15:28] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[00:15:28] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[00:15:28] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[00:15:28] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[00:15:28] [modloading-worker-0/INFO] [Dungeon Crawl]: Here we go! Launching Dungeon Crawl 2.3.14...
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[00:15:28] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[00:15:28] [modloading-worker-0/INFO] [ToolLeveling+]: Loaded ForgeRegistrationFactory for service Factory
+[00:15:28] [modloading-worker-0/INFO] [ToolLeveling+]: Loaded ForgePlatformHelper for service PlatformHelper
+[00:15:28] [modloading-worker-0/INFO] [ToolLeveling+]: Initializing ToolLeveling+...
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Registered charge handler for type org.zeith.hammerlib.util.charging.fluid.FluidCharge - org.zeith.hammerlib.util.charging.impl.FluidChargeHandler@6e6e7ca0
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Registered charge handler for type org.zeith.hammerlib.util.charging.fe.FECharge - org.zeith.hammerlib.util.charging.impl.FEChargeHandler@3f0d1b3b
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Registered inventory lister org.zeith.hammerlib.util.charging.impl.VanillaPlayerInvLister
+[00:15:28] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for pickupnotifier:main
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/test/machine/TileTestMachine; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/test/machine/RecipeTestMachine; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/test/machine/BlockTestMachine; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/WaterBottleReplacer; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/recipes/replacers/RemainingReplacerRegistrar; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/init/SourceTypesHL; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/init/RecipesHL; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/init/LevelActionTypesHL; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/init/ItemsHL; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/core/init/GearsHL; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/hammerlib/api/forge/ContainerAPI; from hammerlib to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/SkillsIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/RecipeTypesIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/ParticleTypesIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/PageletsIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/ItemsIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/GuiHooksIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Hooked Lorg/zeith/improvableskills/init/AbilitiesIS; from improvableskills to register it's stuff.
+[00:15:28] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[00:15:28] [modloading-worker-0/INFO] [HammerLib]: Injecting config setup into class org.zeith.improvableskills.cfg.ConfigsIS
+[00:15:28] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[00:15:28] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.10, for MC 1.20.1 with MCP 20230612.114412
+[00:15:28] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.10 Initialized
+[00:15:28] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[00:15:29] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces]: Initializing Update Checker...
+[00:15:29] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Starting Update Check...
+[00:15:29] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Update Check done!
+[00:15:29] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Iron Furnaces is up to date!
+[00:15:29] [modloading-worker-0/INFO] [HammerLib]: Injecting setup into org.zeith.hammerlib.net.Network
+[00:15:29] [modloading-worker-0/INFO] [Spartan Shields]: Constructing Mod: Spartan Shields
+[00:15:29] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.84.
+[00:15:29] [modloading-worker-0/INFO] [mixin]: Mixing MixinEnchantmentHelper from enigmaticlegacy.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[00:15:29] [modloading-worker-0/INFO] [Enigmatic Legacy]: Constructing mod instance...
+[00:15:29] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.Warden
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
+[00:15:29] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Jump
+[00:15:30] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
+[00:15:30] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for enchantinginfuser:main
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
+[00:15:30] [modloading-worker-0/INFO] [Enigmatic Legacy]: Mod instance constructed successfully.
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
+[00:15:30] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
+[00:15:30] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file /workspaces/MC/servidor_minecraft/config/cyclic.toml is not correct. Correcting
+[00:15:30] [main/INFO] [mixin]: Mixing MixinForgeHooks from enigmaticlegacy.mixins.json into net.minecraftforge.common.ForgeHooks
+[00:15:32] [main/INFO] [mixin]: Mixing MixinEnterBlockTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.EnterBlockTrigger
+[00:15:32] [main/INFO] [mixin]: Mixing MixinInventoryChangeTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.InventoryChangeTrigger
+[00:15:32] [main/INFO] [mixin]: Mixing MixinSummonedEntityTrigger from enigmaticlegacy.mixins.json into net.minecraft.advancements.critereon.SummonedEntityTrigger
+[00:15:34] [main/INFO] [Spartan Shields]: Loading config spartanshields-common.toml
+[00:15:34] [modloading-worker-0/INFO] [HammerLib]: Setup HammerLib networking!
+[00:15:34] [modloading-worker-0/INFO] [Dungeon Crawl]: Common Setup
+[00:15:34] [modloading-worker-0/INFO] [ToolLeveling+]: Created README.txt in config folder.
+[00:15:34] [modloading-worker-0/INFO] [ToolLeveling+]: Config 'tool_leveling_table.json' was successfully loaded.
+[00:15:34] [modloading-worker-0/INFO] [ToolLeveling+]: Saved the checked/corrected config: tool_leveling_table.json
+[00:15:34] [modloading-worker-0/INFO] [ToolLeveling+]: Config 'command_config.json' was successfully loaded.
+[00:15:34] [modloading-worker-0/INFO] [ToolLeveling+]: Saved the checked/corrected config: command_config.json
+[00:15:34] [modloading-worker-0/INFO] [Spartan Shields]: Setting up Spartan Shields!
+[00:15:34] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit]: Initialized
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Initializing common setup phase...
+[00:15:34] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand]: ConstructionWand says hello - may the odds be ever in your favor.
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Registering packets...
+[00:15:34] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials]: Initialized enhancedcelestials network!
+[00:15:34] [modloading-worker-0/INFO] [CorgiLib]: Initializing network...
+[00:15:34] [modloading-worker-0/INFO] [CorgiLib]: Initialized network!
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Registering triggers...
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Registering stats...
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Common setup phase finished successfully.
+[00:15:34] [main/INFO] [journeymap]: Initializing Packet Registries
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Sending messages to Curios API...
+[00:15:34] [modloading-worker-0/INFO] [HammerLib]: Performed registerFoil from hammerlib. Determined constant(0xFFFFFF0F) foil provider
+[00:15:34] [modloading-worker-0/INFO] [HammerLib]: Performed registerFoil from hammerlib. Determined dynamic(org.zeith.hammerlib.client.CustomFoilConfigs$$Lambda/0x00007646d17bc638@5ebefab0) foil provider
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Initializing load completion phase...
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Registering brewing recipes...
+[00:15:34] [modloading-worker-0/INFO] [AttributeFix]: Loaded values for 29 compatible attributes.
+[00:15:34] [modloading-worker-0/INFO] [AttributeFix]: Loaded 29 values from config.
+[00:15:34] [modloading-worker-0/INFO] [AttributeFix]: Saving config file. 29 entries.
+[00:15:34] [modloading-worker-0/INFO] [AttributeFix]: Applying changes for 29 attributes.
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at org.zeith.hammerlib.compat.jade.GetWaila
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[00:15:34] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Successfully fetched the list of devoted believers from Enigmatic Legacy's repository.
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Successfully backed up the list of devoted believers.
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: ObsidianFlight, UUID: 0cf25168-1b5a-4ac9-90eb-45bb20b0afab
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Alexsist, UUID: b77d12d4-627f-47d3-965a-74e4f41854cc
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Volsarex, UUID: e9907457-0251-42de-86b7-32289c19a6c4
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Tar, UUID: 64d64b70-fde8-467e-ad70-271d5ddf26f6
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Strgnv, UUID: 93f46b5e-3f96-4bde-9de9-96e7210441f9
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: SoulRacer65, UUID: a9ca1491-c6b2-4502-a585-94336fb07e75
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: legitch, UUID: 64906813-adac-4aa9-8ac9-f25dbb677102
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: TheOutlander, UUID: 9c22cd32-4dff-42b9-946c-69548781f894
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Crobee, UUID: ed207d6d-0bec-4e0b-9674-d8455f017441
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Exlor, UUID: d45f7a78-513c-43ed-b2f7-6447a92ddaf2
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: IaruEmbyr, UUID: 97b38aa9-8c8b-4b50-8b69-f71db9a5c2d3
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: HunterPhantom, UUID: b818e7a3-997e-4456-a7f0-dc7c97c42892
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Azure, UUID: 4aeb4bcc-e4b3-4851-9c1f-13d41ad7f37c
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: PixelVoxel, UUID: f9e9d0d6-eb43-46db-ae6e-b0950668c06d
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Izures, UUID: 4c2145c9-be1a-4ae4-bb9f-0003bd221a98
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: 0thLaw, UUID: a4ef9810-6c0b-45a6-9895-6bbebc70e001
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Nexus, UUID: 08e81c68-0a2f-4625-882b-ddcf3c86e351
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Fetrex, UUID: d7d73994-0fa5-4690-a8dd-4dc850563f4e
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: MasterGentar, UUID: 86a110be-dc85-4d2c-82d3-3669cb61db8f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Dimagic, UUID: 34128f78-ad16-4ef3-a647-bb13f0aea775
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: probablyastar, UUID: 8f0f3658-5644-4f21-b5ea-324153338d87
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Toastr125, UUID: 5cd5f647-d3bb-412e-b60c-0aaae21bcddd
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: YesPyro, UUID: 82a617a0-56fe-4ead-82d4-9d968ca7c777
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Amadhe, UUID: 8bdb26a8-7687-49e5-829b-f298cfc10508
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Hyperion, UUID: 143e257c-b945-4700-85d2-ebcf63c1811f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: prism182, UUID: f9048245-89cb-456c-aa2b-cc8e9d8b8c76
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Celeste-ialGamer, UUID: 4822d847-93c1-4efd-bd9f-b2d56ba1608d
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Snow_guy864335, UUID: a4fa93e5-c243-4b7b-b69a-6943152a5d2d
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Dvyant, UUID: f75e74cb-d289-459f-8d28-ea3668541e32
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Naoro, UUID: 7a195143-a6cd-4efb-8e57-deac4b7636d7
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: millie, UUID: f4fac73a-0ada-4e50-bbed-61b06f1a4d18
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: NinjaFox, UUID: 834a2387-6dec-4d57-8bd3-72be2a54ed54
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: ProstoChel, UUID: 1fd0b74a-536b-4a65-a849-5c607c950396
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: (Ne)TyMVS, UUID: ac159e63-a757-4f7d-8c2c-73469a715ff3
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: TheMuffinMan, UUID: 20f48143-1e09-4c89-9c85-085b70c76953
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: solmortis, UUID: f6dbd5e9-701c-4c76-8a48-0ba4b687c76d
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Eternal_Banisher, UUID: 387aa6d4-f388-400f-b9c5-1514f238ceae
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: AbsorbingSafe11, UUID: 343ad979-87b7-4dfa-88b8-3f3fdc2e00ab
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Stygian, UUID: f6c7001f-4ce8-43f7-b4a1-a9d9d5fadb93
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: PikachuGabe0, UUID: ca7b21a6-76a5-4ea6-af48-b90f66e4f2b1
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Purifier, UUID: 58c97c29-2c25-4320-a1d2-8e5651de506b
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Sam/Barker, UUID: 0179c9aa-12c8-423c-bf96-d53c9ed479dd
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Ciege, UUID: 48b866bf-a574-4a10-b7bd-2d83d056452d
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Solbaify, UUID: 5679a7e1-29f4-4bdc-bd60-5f642d95ad68
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Samola345, UUID: b657c54f-3174-4434-bed8-14d7be8634b3
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Ozzi, UUID: 7d52df8b-963d-45c2-9c8a-aa7f20ae0659
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Arix, UUID: c13feccd-e582-4ae1-aee7-35e8acf7e9e1
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Nechronom, UUID: 84b933b8-9688-4021-a039-eed55c985548
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Thauma, UUID: facc8bc4-a623-47dc-af89-ba979ac159b5
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: GrekvarZikurah, UUID: f251c109-8214-4882-b0b4-332441843a50
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Sebaty5, UUID: c6dd33f1-e851-40b4-840d-6af5ebe4ea3b
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: MarceDev, UUID: 24b26788-1ce6-44a6-a4df-45202850a9ef
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Xathanon, UUID: 806dc0b8-7d90-4776-b870-37fda466a13f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Jusey1, UUID: 5f311b1c-8557-42cc-9c33-3605ea8f524f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: swagfredbear27, UUID: c98b3962-3ea9-47f8-820d-134ce2691af0
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: CrazyHamburger, UUID: 57282a53-522e-4f8c-9f44-19d2068668d7
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: UwUent, UUID: 43124493-b135-4467-8460-f04e7e845b63
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: angelman, UUID: 85efda35-7bc1-48c5-a392-f3c23047212f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Madis0, UUID: 581a3f25-db2c-4e52-9823-62e9e4730daa
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Believer: Destiny, UUID: 38edb8bc-816f-47b7-95d9-f67af6017f2f
+[00:15:34] [modloading-worker-0/INFO] [Enigmatic Legacy]: Load completion phase finished successfully
+[00:15:38] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:15:41] [main/INFO] [mixin]: Mixing AccessorAdvancementCommands from enigmaticlegacy.mixins.json into net.minecraft.server.commands.AdvancementCommands
+[00:15:41] [main/INFO] [mixin]: Renaming @Accessor method getAdvancementSuggestions()Lcom/mojang/brigadier/suggestion/SuggestionProvider; to getAdvancementSuggestions_$md$e95f7b$0 in enigmaticlegacy.mixins.json:AccessorAdvancementCommands
+[00:15:42] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_piece
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/configured_carver
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/enhancedcelestials/lunar/dimension_settings
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/custom_stat
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/pos_rule_test
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/forge/structure_modifier
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/material_condition
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/instrument
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_score_provider_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/cat_variant
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/chunk_generator
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/material_rule
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/feature_size_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/rule_test
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/flat_level_generator_preset
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/density_function
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_set
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/placed_feature
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/biome_source
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/noise_settings
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/trunk_placer_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/trim_pattern
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/banner_pattern
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/int_provider_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/corgilib/villager_trades_item_listing
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_condition_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/rule_block_entity_modifier
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/multi_noise_biome_source_parameter_list
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/density_function_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/decorated_pot_patterns
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/forge/biome_modifier
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_placement
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/enhancedcelestials/lunar/event
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/root_placer_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/block_predicate_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/chat_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/processor_list
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/height_provider_type
+[00:15:42] [Worker-Main-2/WARN] [HammerLib]: Unable to find registry for tag directory tags/dimension_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/corgilib/blending_function
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/game_events
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/configured_feature
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_function_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/trim_material
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/noise
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/placement_modifier_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/creative_mode_tab
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/villager_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/damage_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/template_pool
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/float_provider_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_processor
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_nbt_provider_type
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_pool_entry_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_pool_element
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/loot_number_provider_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/structure_type
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/frog_variant
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/dimension
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/corgilib/condition
+[00:15:42] [Worker-Main-3/WARN] [HammerLib]: Unable to find registry for tag directory tags/position_source_type
+[00:15:42] [Worker-Main-1/WARN] [HammerLib]: Unable to find registry for tag directory tags/worldgen/world_preset
+[00:15:42] [Worker-Main-2/WARN] [artifacts.Artifacts]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-8.8.0.jar
+[00:15:42] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:entities/warden'!
+[00:15:42] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city_ice_box'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/bastion_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobwebs'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/underwater_ruin_big'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_map'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/abandoned_mineshaft'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/puzzle'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/abandoned_mineshaft'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:atkdmg_ranged' into LootTable 'minecraft:entities/skeleton'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:ender_manipulator' into LootTable 'minecraft:entities/enderman'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/ancient_city'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:obsidian_skin' into LootTable 'minecraft:chests/nether_bridge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/nether_bridge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/keep'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_desert_house'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/storage'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/stronghold_corridor'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_small'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:xp_plus' into LootTable 'minecraft:entities/elder_guardian'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ores'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_weaponsmith'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:mob_repellent' into LootTable 'minecraft:chests/village/village_armorer'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/bastion_hoglin_stable'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/woodland_mansion'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_toolsmith'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/igloo_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/ancient_city'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_snowy_house'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/jungle_temple'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/food'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_butcher'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/hall'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:growth' into LootTable 'minecraft:chests/jungle_temple'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/secret_room'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/extra'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/supply'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:health' into LootTable 'minecraft:chests/end_city_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/end_city_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/crops'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/food'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:enchanter' into LootTable 'minecraft:chests/stronghold_library'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/stronghold_library'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_savanna_house'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/rails'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/ruined_portal'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/igloo_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/buried_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:silent_foot' into LootTable 'minecraft:chests/ancient_city_ice_box'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/ancient_city_ice_box'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/library'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:generic_protection' into LootTable 'minecraft:chests/simple_dungeon'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/simple_dungeon'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/shipwreck_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/desert_pyramid'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/forge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/ruined_portal'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_tannery'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/desert_pyramid'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_supply'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:alchemist' into LootTable 'minecraft:entities/witch'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/minecarts'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_temple'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'mowziesmobs:chests/umvuthana_grove_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/stronghold_crossing'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/worship'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/shipwreck_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:dexterous_arms' into LootTable 'minecraft:chests/abandoned_mineshaft'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/abandoned_mineshaft'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/shipwreck_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/stronghold_corridor'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/pillager_outpost'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/obsidian'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/cobblestone'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:luck_of_the_sea' into LootTable 'minecraft:gameplay/fishing'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/beacon'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/bastion_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/nether_bridge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/gems'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/spawn_bonus_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/buried_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_taiga_house'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'betterfortresses:chests/quarters'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:soul_speed' into LootTable 'minecraft:gameplay/piglin_bartering'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:treasure_sands' into LootTable 'minecraft:chests/desert_pyramid'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/desert_pyramid'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/spawn_bonus_chest'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/underwater_ruin_big'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/end_city_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/simple_dungeon'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'sophisticatedbackpacks:inject/chests/nether_bridge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/woodland_mansion'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/bastion_bridge'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/ingots'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/pillager_outpost'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/stage_3'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/stage_4'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/stage_5'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/stage_1'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'dungeoncrawl:chests/stage_2'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/end_city_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/jungle_temple_dispenser'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_hoglin_stable'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/bastion_other'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_plains_house'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/bastion_treasure'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:chests/campsite_barrel/tnt'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'minecraft:chests/woodland_mansion'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting parchment into LootTable 'artifacts:inject/chests/village/village_armorer'!
+[00:15:43] [Worker-Main-1/INFO] [ImprovableSkills]: Injecting scroll for skill 'improvableskills:huckster' into LootTable 'minecraft:gameplay/hero_of_the_village/librarian_gift'!
+[00:15:43] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 17 recipes
+[00:15:43] [main/ERROR] [HammerLib]: Register attachment for RegisterRecipesEvent: org.zeith.hammerlib.core.test.HammerLibRecipeExtension.
+[00:15:43] [main/ERROR] [HammerLib]: Register attachment for RegisterRecipesEvent: org.zeith.improvableskills.api.recipe.Is3RecipeBuilderExtension.
+[00:15:43] [main/INFO] [HammerLib]: Reloading HammerLib recipes...
+[00:15:43] [main/INFO] [HammerLib]: HammerLib injected 16 recipes into recipe map. Removed 0 recipes from the game.
+[00:15:43] [main/INFO] [HammerLib]: Registered 16 additional recipes.
+[00:15:43] [main/WARN] [HammerLib]: Unable to find registry for tag directory tags/functions
+[00:15:43] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1989 advancements
+[00:15:43] [main/INFO] [Dungeon Crawl]: Loading data...
+[00:15:44] [main/INFO] [Dungeon Crawl]: Done.
+[00:15:44] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 16 curio slots
+[00:15:44] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio entities
+[00:15:44] [main/INFO] [insane96mcp.insanelib.InsaneLib]: Reloading InsaneLib JsonFeature Json
+[00:15:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[00:15:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:15:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:15:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[00:15:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[00:15:45] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[00:15:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:15:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[00:15:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:15:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:15:46] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-888 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.10, NeoForge version 47.1.106)
+[00:15:47] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[00:15:47] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[00:15:47] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[00:15:48] [Server thread/INFO] [me.otrek2002.GUIAdminTools.Main]: [GUIAdminTools] Loading GUIAdminTools v2.4.0
+[00:15:48] [Server thread/INFO] [net.shortninja.staffplus.StaffPlus]: [StaffPlus] Loading StaffPlus v3.3.14.2
+[00:15:48] [Server thread/INFO] [emanondev.itemedit.ItemEdit]: [ItemEdit] Loading ItemEdit v3.5.2
+[00:15:48] [Server thread/INFO] [emanondev.itemtag.ItemTag]: [ItemTag] Loading ItemTag v3.4.3
+[00:15:48] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[00:15:48] [Thread-2/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[00:15:48] [Server thread/INFO] [Puzzles Lib]: Loading server config for pickupnotifier
+[00:15:48] [Thread-2/INFO] [Puzzles Lib]: Reloading server config for pickupnotifier
+[00:15:48] [Thread-2/INFO] [Puzzles Lib]: Reloading server config for pickupnotifier
+[00:15:48] [Server thread/INFO] [Puzzles Lib]: Loading server config for enchantinginfuser
+[00:15:48] [Server thread/INFO] [Framework]: Loading server configs...
+[00:15:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:15:48] [Server thread/INFO] [mixin]: Mixing MixinPhantomSpawner from enigmaticlegacy.mixins.json into net.minecraft.world.level.levelgen.PhantomSpawner
+[00:15:50] [Server thread/INFO] [mixin]: Mixing MixinHoglinTasks from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.hoglin.HoglinAi
+[00:15:50] [Server thread/INFO] [mixin]: Mixing MixinPiglinTasks from enigmaticlegacy.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[00:15:50] [Server thread/INFO] [mixin]: Renaming synthetic method lambda$onPiglinBarter$0(Ljava/util/List;Lnet/minecraft/world/item/ItemStack;)V to mde95f7b$lambda$onPiglinBarter$0$0 in enigmaticlegacy.mixins.json:MixinPiglinTasks
+[00:15:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[00:15:59] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:15:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:00] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:00] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:00] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[00:16:00] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 22%
+[00:16:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 55%
+[00:16:01] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 7458 ms
+[00:16:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[00:16:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:04] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:05] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:05] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 23%
+[00:16:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3957 ms
+[00:16:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[00:16:06] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:06] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:07] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:16:07] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 13%
+[00:16:07] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1919 ms
+[00:16:07] [Server thread/INFO] [me.otrek2002.GUIAdminTools.Main]: [GUIAdminTools] Enabling GUIAdminTools v2.4.0
+[00:16:07] [Server thread/INFO] [Console]: -----GUI ADMIN TOOLS FREE-----
+[00:16:07] [Server thread/INFO] [Console]:  
+[00:16:07] [Server thread/INFO] [Console]: VERSION: 2.4.0
+[00:16:07] [Server thread/INFO] [Console]:  
+[00:16:07] [Server thread/INFO] [Console]: LOADING ALL SERVICES...
+[00:16:08] [Server thread/INFO] [Console]: LOADED ALL SERVICES
+[00:16:08] [Server thread/INFO] [Console]:  
+[00:16:08] [Server thread/INFO] [Console]: LOADED METRICS
+[00:16:08] [Server thread/INFO] [Console]:  
+[00:16:08] [Server thread/INFO] [Console]: -----GUI ADMIN TOOLS FREE-----
+[00:16:08] [Server thread/INFO] [net.shortninja.staffplus.StaffPlus]: [StaffPlus] Enabling StaffPlus v3.3.14.2
+[00:16:08] [Server thread/INFO] [Console]: [Staff+] Version protocol set to 'v1_20_R1'.
+[00:16:08] [Server thread/INFO] [Console]: [Staff+] Staff+ has been enabled! Initialization took 298ms.
+[00:16:08] [Server thread/INFO] [Console]: [Staff+] Plugin created by Shortninja continued by Qball.
+[00:16:08] [Server thread/INFO] [emanondev.itemedit.ItemEdit]: [ItemEdit] Enabling ItemEdit v3.5.2
+[00:16:08] [Server thread/INFO] [Console]: [ItemEdit] Selected Storage Type: YAML
+[00:16:08] [Server thread/INFO] [Console]: [ItemEdit] Unable to hook into Vault
+[00:16:08] [Server thread/INFO] [Console]: [ItemEdit] # Enabled (took 276 ms)
+[00:16:08] [Server thread/INFO] [emanondev.itemtag.ItemTag]: [ItemTag] Enabling ItemTag v3.4.3
+[00:16:08] [Server thread/INFO] [Console]: [ItemTag] Data using Spigot PersistentDataContainer
+[00:16:08] [Server thread/INFO] [Console]: [ItemTag] EquipmentChangeListener
+[00:16:08] [Server thread/INFO] [Console]: [ItemTag] # Enabled (took 89 ms)
+[00:16:08] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[00:16:08] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[00:16:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (20.514s)! For help, type "help"
+[00:16:08] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[00:16:08] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[00:16:08] [Server thread/INFO] [puffish_skills]: [puffish_skills] Configuration loaded successfully!
+[00:16:09] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore]: item config parser finished, item count: 14
+[00:16:09] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore]: item config parser finished, item count: 17
+[00:16:09] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore]: item config parser finished, item count: 16
+[00:16:09] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
+[00:16:09] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore]: InfernalMobsCore commonSetup completed! config file at: /workspaces/MC/servidor_minecraft/./config/infernalmobs.cfg
+[00:16:09] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[00:16:09] [Craft Scheduler Thread - 0/INFO] [me.otrek2002.GUIAdminTools.Main]: [GUIAdminTools] There is a new update available.
+[00:16:09] [Craft Scheduler Thread - 1/INFO] [net.shortninja.staffplus.StaffPlus]: [StaffPlus] You are using the latest version thanks
+[00:19:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz joined the game
+[00:19:39] [Server thread/INFO] [ToolLeveling+]: Sending config 'tool_leveling_table.json' to player 'xUNKNOWNz'
+[00:19:39] [Server thread/INFO] [ToolLeveling+]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
+[00:19:39] [Server thread/INFO] [ToolLeveling+]: Sending config 'command_config.json' to player 'xUNKNOWNz'
+[00:19:39] [Server thread/INFO] [Jade]: Syncing config to xUNKNOWNz (428a29a9-89df-3570-8385-74e40ed4a49c)
+[00:19:39] [Server thread/INFO] [Enigmatic Legacy]: Synchronizing omniconfig files to xUNKNOWNz...
+[00:19:39] [Server thread/INFO] [Enigmatic Legacy]: Sending data for enigmaticlegacy-common.omniconf
+[00:19:39] [Server thread/INFO] [Enigmatic Legacy]: Granting starter gear to xUNKNOWNz
+[00:19:39] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: xUNKNOWNz[/100.87.209.93:50143] logged in with entity id 640 at ([world]-62.38340788605844, 255.2543511522736, 25.898074718207248)
+[00:19:39] [Server thread/INFO] [Enigmatic Legacy]: Blue Skies detected: false
+[00:19:53] [Server thread/INFO] [ImprovableSkills]: Sending skill data to xUNKNOWNz (428a29a9-89df-3570-8385-74e40ed4a49c)
+[00:20:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[00:20:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp xUNKNOWNz
+[00:20:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to xUNKNOWNz]
+[00:20:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz joined the game
+[00:20:30] [Server thread/INFO] [ToolLeveling+]: Sending config 'tool_leveling_table.json' to player 'Ydrxzz'
+[00:20:30] [Server thread/INFO] [ToolLeveling+]: Sending config 'command_config.json' to player 'Ydrxzz'
+[00:20:30] [Server thread/INFO] [Jade]: Syncing config to Ydrxzz (a0fda5a3-f1dc-33e3-b25f-4484510810c2)
+[00:20:30] [Server thread/INFO] [Enigmatic Legacy]: Synchronizing omniconfig files to Ydrxzz...
+[00:20:30] [Server thread/INFO] [Enigmatic Legacy]: Sending data for enigmaticlegacy-common.omniconf
+[00:20:30] [Server thread/INFO] [Enigmatic Legacy]: Granting starter gear to Ydrxzz
+[00:20:30] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Ydrxzz[/100.79.177.32:53941] logged in with entity id 902 at ([world]-68.75795825295985, 269.9039500306733, 5.5613617859194004)
+[00:20:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:20:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:20:50] [Server thread/INFO] [ImprovableSkills]: Sending skill data to Ydrxzz (a0fda5a3-f1dc-33e3-b25f-4484510810c2)
+[00:20:56] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz was kicked for floating too long!
+[00:20:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz lost connection: Flying is not enabled on this server
+[00:20:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz left the game.
+[00:20:56] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[00:21:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz joined the game
+[00:21:08] [Server thread/INFO] [ToolLeveling+]: Sending config 'tool_leveling_table.json' to player 'Ydrxzz'
+[00:21:08] [Server thread/INFO] [ToolLeveling+]: Sending config 'command_config.json' to player 'Ydrxzz'
+[00:21:08] [Server thread/INFO] [Jade]: Syncing config to Ydrxzz (a0fda5a3-f1dc-33e3-b25f-4484510810c2)
+[00:21:08] [Server thread/INFO] [Enigmatic Legacy]: Synchronizing omniconfig files to Ydrxzz...
+[00:21:08] [Server thread/INFO] [Enigmatic Legacy]: Sending data for enigmaticlegacy-common.omniconf
+[00:21:08] [Server thread/INFO] [Enigmatic Legacy]: Granting starter gear to Ydrxzz
+[00:21:08] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Ydrxzz[/100.79.177.32:53975] logged in with entity id 925 at ([world]-68.75795825295985, 194.60676395443832, 5.5613617859194004)
+[00:21:08] [Server thread/INFO] [ImprovableSkills]: Sending skill data to Ydrxzz (a0fda5a3-f1dc-33e3-b25f-4484510810c2)
+[00:21:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[00:22:19] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (164 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=164, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[00:22:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[00:34:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 34
+[00:35:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [Withering Heights]
+[00:36:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has reached the goal [Strong Undead]
+[00:36:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [Not even afraid of death]
+[00:36:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [Back to childhood]
+[00:38:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz has made the advancement [A Better Blade]
+[00:38:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz has made the advancement [A Better Pickaxe]
+[00:42:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz has made the advancement [The Right Suit Makes all the Difference]
+[00:44:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [Your First Receptacle]
+[00:49:41] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <Ydrxzz> [name:"Base", x:-70, y:256, z:15, dim:minecraft:the_nether]
+[00:50:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[00:51:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:51:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:52:16] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (56 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=56, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[00:52:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:52:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:52:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [A Better Pickaxe]
+[00:52:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz has made the advancement [A Better Blade]
+[00:53:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode spectator
+[00:53:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode survival
+[00:54:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:54:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:55:19] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (52 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=51, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[00:56:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode spectator
+[00:56:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode survival
+[00:57:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:57:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:58:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[00:58:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[00:58:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[00:59:24] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz moved too quickly! 4.776869941501047,1.0678464424323977,-9.109391331476381
+[01:00:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[01:00:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[01:06:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /it
+[01:06:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /it
+[01:12:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[01:12:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[01:13:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit enchant efficiency 3
+[01:14:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /it
+[01:14:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /at
+[01:17:27] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[01:17:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /at
+[01:18:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[01:18:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[01:19:26] [Server thread/INFO] [Console]: [Staff+] Staff+ is now auto saving...
+[01:20:47] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz moved too quickly! -2.379373317131609,-9.247454709383021,9.782858645703513
+[01:36:10] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode spectator
+[01:36:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /gamemode survival
+[01:47:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /tp xUNKNOWNz
+[01:47:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Ydrxzz: Teleported Ydrxzz to xUNKNOWNz]
+[01:47:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 64
+[01:49:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 6
+[01:50:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit rename desosirribunocleico
+[01:50:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /tp xUNKNOWNz
+[01:50:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Ydrxzz: Teleported Ydrxzz to xUNKNOWNz]
+[01:53:43] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (63 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=63, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[01:57:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[01:57:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[01:58:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[01:58:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[01:58:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[02:20:16] [Server thread/INFO] [Console]: [Staff+] Staff+ is now auto saving...
+[02:26:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[02:26:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[02:28:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:28:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:28:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:28:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:28:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:28:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:33] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:29:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:30:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 127
+[02:35:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /fly
+[02:41:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:41:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:43:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:46:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:48:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:50:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[02:56:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz issued server command: /tp Ydrxzz
+[02:56:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xUNKNOWNz: Teleported xUNKNOWNz to Ydrxzz]
+[02:57:27] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (58 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=58, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[03:00:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 3
+[03:00:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 3
+[03:01:24] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[03:02:04] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz moved too quickly! 0.8370577838506961,-10.52238825774107,-15.916180628443954
+[03:02:06] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz was kicked for floating too long!
+[03:02:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz lost connection: Flying is not enabled on this server
+[03:02:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz left the game.
+[03:02:07] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[03:02:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz joined the game
+[03:02:29] [Server thread/INFO] [ToolLeveling+]: Sending config 'tool_leveling_table.json' to player 'xUNKNOWNz'
+[03:02:29] [Server thread/INFO] [ToolLeveling+]: Sending config 'command_config.json' to player 'xUNKNOWNz'
+[03:02:29] [Server thread/INFO] [Jade]: Syncing config to xUNKNOWNz (428a29a9-89df-3570-8385-74e40ed4a49c)
+[03:02:29] [Server thread/INFO] [Enigmatic Legacy]: Synchronizing omniconfig files to xUNKNOWNz...
+[03:02:29] [Server thread/INFO] [Enigmatic Legacy]: Sending data for enigmaticlegacy-common.omniconf
+[03:02:29] [Server thread/INFO] [Enigmatic Legacy]: Granting starter gear to xUNKNOWNz
+[03:02:29] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: xUNKNOWNz[/100.87.209.93:53137] logged in with entity id 35818 at ([world]-1374.8077665383628, 73.04575331913536, 1127.2978654835342)
+[03:02:29] [Server thread/WARN] [ImprovableSkills]: Skill tick took too long! (572 ms, expected <50 ms!). Time map: [improvableskills:accelerated_furnace=572, improvableskills:luck_of_the_sea=0, improvableskills:silent_foot=0, improvableskills:obsidian_skin=0, improvableskills:attack_speed=0, improvableskills:dexterous_arms=0, improvableskills:huckster=0, improvableskills:fast_swimmer=0, improvableskills:growth=0, improvableskills:pvp=0, improvableskills:xp_plus=0, improvableskills:soft_landing=0, improvableskills:cutting=0, improvableskills:treasure_sands=0, improvableskills:mob_repellent=0, improvableskills:mining=0, improvableskills:atkdmg_ranged=0, improvableskills:alchemist=0, improvableskills:leaper=0, improvableskills:atkdmg_melee=0, improvableskills:ladder_king=0, improvableskills:ender_manipulator=0, improvableskills:generic_protection=0, improvableskills:health=0, improvableskills:enchanter=0, improvableskills:digging=0, improvableskills:soul_speed=0]
+[03:02:29] [Server thread/INFO] [ImprovableSkills]: Sending skill data to xUNKNOWNz (428a29a9-89df-3570-8385-74e40ed4a49c)
+[03:05:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xUNKNOWNz lost connection: Disconnected
+[03:05:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xUNKNOWNz left the game
+[03:06:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:06:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[03:06:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:06:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit rename AcidoDesosirribunocleico
+[03:08:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[03:08:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[03:10:24] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:14:35] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[03:15:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[03:16:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:16:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[03:16:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[03:16:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[03:16:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit rename AcidoDesosirribunocleico
+[03:16:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[03:17:33] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit rename AcidoDesosirribunocleico
+[03:17:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[03:17:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /fly
+[03:18:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[03:20:56] [Server thread/INFO] [Console]: [Staff+] Staff+ is now auto saving...
+[03:23:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /itemedit amount 53
+[03:23:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:24:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode survival
+[03:27:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz issued server command: /gamemode creative
+[03:27:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ydrxzz lost connection: Disconnected
+[03:27:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ydrxzz left the game
+[03:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[03:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:28:11] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[03:28:11] [Server thread/INFO] [emanondev.itemtag.ItemTag]: [ItemTag] Disabling ItemTag v3.4.3
+[03:28:11] [Server thread/INFO] [emanondev.itemedit.ItemEdit]: [ItemEdit] Disabling ItemEdit v3.5.2
+[03:28:11] [Server thread/INFO] [net.shortninja.staffplus.StaffPlus]: [StaffPlus] Disabling StaffPlus v3.3.14.2
+[03:28:11] [Server thread/INFO] [Console]: [Staff+] Staff+ is now disabling!
+[03:28:11] [Server thread/INFO] [me.otrek2002.GUIAdminTools.Main]: [GUIAdminTools] Disabling GUIAdminTools v2.4.0
+[03:28:11] [Server thread/INFO] []: Stop...
+[03:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[03:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[03:28:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:28:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:28:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:28:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:28:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:28:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:28:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:28:34] [Server thread/INFO] [Framework]: Unloading server configs...
+[03:28:34] [Server thread/INFO] [Framework]: Sending config unload event for goblintraders-entities.toml
+[03:28:34] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs

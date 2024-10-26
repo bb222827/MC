@@ -1,0 +1,25 @@
+428a29a9-89df-3570-8385-74e40ed4a49c:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    amount: 35
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERITE_INGOT
+    amount: 26
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: EXPERIENCE_BOTTLE
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GOBBER2_GOBBER2_GLOBETTE
+    amount: 9
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GOBBER2_GOBBER2_GLOBETTE
+    amount: 9
